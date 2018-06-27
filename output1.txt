@@ -1,0 +1,39 @@
+File:1_AY1_AY1.txt
+alignment:gi|1395230553|gb|CP026248.1| Scophthalmus maximus chromosome 6
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|1190380750|ref|XM_020984832.1| PREDICTED: Phascolarctos cinereus melanoma cell adhesion molecule (MCAM), mRNA
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|1050652459|ref|XM_017794146.1| PREDICTED: Gossypium arboreum ATP-dependent RNA helicase DBP3 (LOC108489525), mRNA
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|850492819|gb|CP011905.1| Ovis canadensis canadensis isolate 43U chromosome 20 sequence
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|1395230553|gb|CP026248.1| Scophthalmus maximus chromosome 6
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|1190380750|ref|XM_020984832.1| PREDICTED: Phascolarctos cinereus melanoma cell adhesion molecule (MCAM), mRNA
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|1050652459|ref|XM_017794146.1| PREDICTED: Gossypium arboreum ATP-dependent RNA helicase DBP3 (LOC108489525), mRNA
+e-value:2.38762
+File:1_AY1_AY1.txt
+alignment:gi|850492819|gb|CP011905.1| Ovis canadensis canadensis isolate 43U chromosome 20 sequence
+e-value:2.38762
+File:1_AY2_AY2.txt
+alignment:gi|220952549|gb|FJ634559.1| Synthetic construct Drosophila melanogaster clone BS01193 encodes ash2-RC
+e-value:2.27577e-170
+File:1_AY2_AY2.txt
+alignment:gi|220942325|gb|FJ629447.1| Synthetic construct Drosophila melanogaster clone BO01193 encodes ash2-RC
+e-value:2.27577e-170
+File:1_AY2_AY2.txt
+alignment:gi|665394964|ref|NM_176558.3| Drosophila melanogaster absent, small, or homeotic discs 2 (ash2), transcript variant C, mRNA
+e-value:2.27577e-170
+File:1_AY2_AY2.txt
+alignment:gi|24797077|gb|U73809.2|DMU73809 Drosophila melanogaster trithorax protein ASH2 (ash2) mRNA, complete cds >gi|15291916|gb|AY051803.1| Drosophila melanogaster LD31680 full length cDNA
+e-value:2.27577e-170
+File:1_AY2_AY2.txt
+alignment:gi|195331702|ref|XM_002032503.1| Drosophila sechellia GM26615 (Dsec\GM26615), mRNA
+e-value:2.59895e-144
