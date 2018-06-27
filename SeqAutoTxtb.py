@@ -4,11 +4,12 @@ from Bio.Blast import  NCBIWWW
 from Bio.Blast import NCBIXML
 import glob
 import time
+import csv
+from itertools import izip
 
 start = time.time()
 
 file_string = ""    
-x = 1
 
 fasta_files = []
 for file in glob.glob("*.txt"):
@@ -19,7 +20,7 @@ for file in glob.glob("*.txt"):
 print fasta_files
 
 
-with open("output"+str(x)+".txt","w") as File:
+with open("output.txt","w") as File:
     for i in fasta_files:
         fasta_string = open(i).read() #or make the names fasta1.fasta and just do open(i).read
         result_handle = NCBIWWW.qblast("blastn", "nr", fasta_string, hitlist_size=5)
@@ -32,9 +33,34 @@ with open("output"+str(x)+".txt","w") as File:
                 file_string += "File:" + str(i) + "\n"
                 file_string += "alignment:"+ str(alignment.title)+"\n"
                 file_string += "e-value:"+ str(hsp.expect)+"\n"
-        x += 1
         File.write(file_string)
         print i
 
+
+#txttocsv
+
+
+l=[]
+fil=[]
+ali=[]
+e=[]
+vals =[]
+
+
+with open('output.txt') as f:
+    for line in f:
+        val = line.strip()
+        vals.append(val.split('\n'))
+        fil = vals[0::3]
+        ali = vals[1::3]
+        e = vals[2::3]
+
+
+with open('some.csv', 'w') as file:
+    writer = csv.writer(file)
+    writer.writerow(('File', 'Alignment', 'E-value'))
+    writer.writerows(izip(fil, ali, e))
+
+    
 end = time.time()
 print(end - start)
