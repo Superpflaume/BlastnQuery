@@ -29,12 +29,11 @@ for i in fasta_files:
     for alignment in blast_records.alignments:
         for hsp in alignment.hsps:
             if hsp.expect < E_VALUE_THRESH:
-                file_string += "alignment:",alignment.title+"\n"
-                file_string += "e-value:",hsp.expect+"\n"
+                file_string += "alignment:"+ str(alignment.title)+"\n"
+                file_string += "e-value:"+ str(hsp.expect)+"\n"
     x += 1
     File.write(file_string)
     print "file" 
 
 end = time.time()
 print(end - start)
-
