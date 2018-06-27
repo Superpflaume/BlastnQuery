@@ -23,7 +23,7 @@ for i in fasta_files:
     blast_records = NCBIXML.read(result_handle)# if you only have one seq in file
     print blast_records
     
-    E_VALUE_THRESH = 0.001
+    E_VALUE_THRESH = 0.1
     #for blast_record in blast_records:
     for alignment in blast_records.alignments:
         for hsp in alignment.hsps:
@@ -33,6 +33,7 @@ for i in fasta_files:
     x += 1
     print "file" 
 
+file.close()
 end = time.time()
 print(end - start)
 
