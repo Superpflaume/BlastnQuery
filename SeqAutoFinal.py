@@ -20,7 +20,6 @@ for file in glob.glob("*.txt"):
 print fasta_files
 
 
-
 with open("output.txt", "w") as File:
     results = []
     for i in fasta_files:
