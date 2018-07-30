@@ -18,6 +18,7 @@ with open("BLASToutput.csv", "w") as output:
             result_handle = NCBIWWW.qblast("blastn", "nr", fasta_sequence, hitlist_size=5)
     
             output.write(result_handle.read())
+                #changeneeded
             result_handle.close()
        
             print "next"
