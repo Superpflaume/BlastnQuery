@@ -10,20 +10,19 @@ from itertools import izip
 start = time.time()
 
 with open("BLASToutput.csv", "w") as output:
-    results = []
-    fasta_files = []
     for file in glob.glob('*.txt'):
-        with open (file,'r')as fasta_sequence:
-            for first_line in fasta_sequence.read():
-                if first_line.startswith('>')==True:
-                    print file
-                    sequence = fasta_sequence.read()
-                    print sequence
-                    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, hitlist_size=5)
-                    #blast_records = NCBIXML.read(result_handle)  # if you only have one seq in file
-
-                    output.write(result_handle.read())
-
+        fasta_sequence = open(file,'r').read()
+        if fasta_sequence.startswith('>')==True:
+            print file
+            
+            result_handle = NCBIWWW.qblast("blastn", "nr", fasta_sequence, hitlist_size=5)
+            #blast_records = ''
+            #blast_records = NCBIXML.read(result_handle)
+            #print blast_records
+            output.write(result_handle.read())
+            result_handle.close()
+            #fasta_sequence.close()
+            print "next"
 
 
 

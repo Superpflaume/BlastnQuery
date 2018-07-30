@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_222981</BlastOutput_query-ID>
+  <BlastOutput_query-def>180613-019_O13_1_AY1_AY1.ab1</BlastOutput_query-def>
+  <BlastOutput_query-len>1249</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_222981</Iteration_query-ID>
+  <Iteration_query-def>180613-019_O13_1_AY1_AY1.ab1</Iteration_query-def>
+  <Iteration_query-len>1249</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1398627984|gb|CP029727.1|</Hit_id>
+  <Hit_def>Citrobacter sp. CRE-46 strain AR_0157 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP029727</Hit_accession>
+  <Hit_len>5262516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.48628</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>2623628</Hsp_hit-from>
+      <Hsp_hit-to>2623662</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTAAATGTTCCCTCTAACATAATTCCGTT</Hsp_qseq>
+      <Hsp_hseq>ATTGTATTTAATATTCCCTCTAACATAATTCCATT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||| ||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1395230553|gb|CP026248.1|</Hit_id>
+  <Hit_def>Scophthalmus maximus chromosome 6</Hit_def>
+  <Hit_accession>CP026248</Hit_accession>
+  <Hit_len>27411298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.48628</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>13100225</Hsp_hit-from>
+      <Hsp_hit-to>13100257</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>CAAAAAAGCAACCACAAACAATACTCAAAGCCC</Hsp_qseq>
+      <Hsp_hseq>CAACAAAGCAAACACAAACAATACTCAGAGCCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1190380750|ref|XM_020984832.1|</Hit_id>
+  <Hit_def>PREDICTED: Phascolarctos cinereus melanoma cell adhesion molecule (MCAM), mRNA</Hit_def>
+  <Hit_accession>XM_020984832</Hit_accession>
+  <Hit_len>2983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.48628</Hsp_evalue>
+      <Hsp_query-from>255</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>2023</Hsp_hit-from>
+      <Hsp_hit-to>2052</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>CTTTTGGTTTTTTCACCCCTTCACCATCAC</Hsp_qseq>
+      <Hsp_hseq>CTTCTGCTTTTTTCACCCCTTCACCATCAC</Hsp_hseq>
+      <Hsp_midline>||| || |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1050652459|ref|XM_017794146.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum ATP-dependent RNA helicase DBP3 (LOC108489525), mRNA</Hit_def>
+  <Hit_accession>XM_017794146</Hit_accession>
+  <Hit_len>2147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.48628</Hsp_evalue>
+      <Hsp_query-from>1091</Hsp_query-from>
+      <Hsp_query-to>1130</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>ATCGTATCCTGATGGTAACTACAAACGGGAACAGGGAAAC</Hsp_qseq>
+      <Hsp_hseq>ATTGTATCCTGATGGTACCTACAATGGCGAAGAGGGAAAC</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| ||||||  | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|850492819|gb|CP011905.1|</Hit_id>
+  <Hit_def>Ovis canadensis canadensis isolate 43U chromosome 20 sequence</Hit_def>
+  <Hit_accession>CP011905</Hit_accession>
+  <Hit_len>51240674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.48628</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>5300292</Hsp_hit-from>
+      <Hsp_hit-to>5300341</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CATGCATTTCATG-ACAACTCT----CTCTTGCATTTTTCATCCATGCTC</Hsp_qseq>
+      <Hsp_hseq>CATTCATTTCATGGATATCTTTAATCCTCTTGCATTTTTCATCCATGCTC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||| | | || |    ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>49234818</Statistics_db-num>
+      <Statistics_db-len>188851820814</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_44555</BlastOutput_query-ID>
+  <BlastOutput_query-def>180613-019_A17_1_AY2_AY2.ab1</BlastOutput_query-def>
+  <BlastOutput_query-len>992</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_44555</Iteration_query-ID>
+  <Iteration_query-def>180613-019_A17_1_AY2_AY2.ab1</Iteration_query-def>
+  <Iteration_query-len>992</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|220952549|gb|FJ634559.1|</Hit_id>
+  <Hit_def>Synthetic construct Drosophila melanogaster clone BS01193 encodes ash2-RC</Hit_def>
+  <Hit_accession>FJ634559</Hit_accession>
+  <Hit_len>1705</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.825</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>2.3698e-170</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>916</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>547</Hsp_identity>
+      <Hsp_positive>547</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>655</Hsp_align-len>
+      <Hsp_qseq>CGGACCATGGGTTAACCACACCTCGCCCAGCACCACCCACGACATCCACCCTGATTTTCTCGCTGCGGCTGCCTGATCATGCGACGCCCACCAGCACACAAGGTGGCACTGAGGTGCAGCCGACCTTCTCCGGGGATAGGTTTGGCATCCCACTTGGAGCGGTCGTCGAACGCGGGACGAAGTGGAGCATGTGCATCCAGTTCGGCCAGTATATCCCGATAGCAATCCTTGATGAAGGGGTGTTCCGATGTTATAGCCATGCAATGGTAACTTTACATTGGCCGTAATATCGAAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTGGTTTTCTGTCGATTGTTTTTGGAGAAGCAAGGTAGAGTATATCAATCGCCGGTGAGTCGCAGGGCGAGGCTCTTGCTCATGCTCTCATAGTTGGGCTTGATGATTTCCCAGATCCTGATGGAATAGTCGCGTACATCGCGCCCGTGTTCGCGCAAGCTCGCTCCTAATGTGAAACAGTGTCGTGCACATCCCTTGACCAAAGATCGCCTGGACGGGTGCTGTACCAGGGACTGGGGTGACTCTGCGCGGCATGGGTGGGTCATGGCCCTCCCCAGTACTATTCCGATATTACGGTATGATCTCCGTGTC</Hsp_qseq>
+      <Hsp_hseq>CGGACCATGCAGTAACCACGT-TCGCCCGTCACCGCCAACCG-ATCCTCGCTTATTTTCA-GCTGTGG-TGCCCGATCATGCAGCGCC-AGGAGCACAGAATGTGGCACCAGGATGCGGTAGAGCCAG-CCGGGGATAGGTTTGCCAGCCCAATCGGAGCTCTCGTCGAACTCCTGACGAAATGGAGCATGTGGATCCGGTTCGGCGAGTATATAACGATAGCCATCCTTGTTGAAGGGGTGTTCCAATGG-ATAGCCATGCGGTGGCAACTTTACATTGGCCGTAATATCGGAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTCCTTTTCTGTCGATTGTTTTTGGAGAGGGAAGCTTGAGTATATCCATCGTCGGTGAGTCGCAGGGCGCCGCTCTTGCTCATGCTCTCGTAGTTGGGCTTGATGA-TTCGCAGATCCTGATGGAATAGTC-CGTACATGGCG-CCATGTTC-CGCATGCTC-CTCGT-AGGTG-AACAGGGTC-TGCACAT-CCTTGACCAAAGATCG-CTGGAC-GGTGCTGTACCA-GGACT-GGGTGAGTCTGCGTGGCATGG--TGGTCATGGCC--TCCCAGTACTGTT-CGAT-GTACGGTATGATCTCCTTGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||   ||||||  |||| || ||   |||| | || ||||||  |||| || |||| ||||||||  |||| |  |||||| || |||||||   | ||| |  || |    ||||||||||||||| || |||| | |||||  ||||||||| |  |||||| ||||||||||| |||| ||||||| |||||||  ||||||| ||||||| |||||||||||||| |||  ||||||||||  ||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||| | ||| | ||||||||| |||| |||||||||||||||||  |||||||||||||||||| |||||||||||||||| ||| |||||||||||||||||||| ||||||| ||| || ||||| |||| |||| ||| | | ||| ||||| ||| ||||||| |||||||||||||||| |||||| |||||||||||| ||||| |||||| |||||| |||||||   ||||||||||   ||||||||| || ||||  ||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|220942325|gb|FJ629447.1|</Hit_id>
+  <Hit_def>Synthetic construct Drosophila melanogaster clone BO01193 encodes ash2-RC</Hit_def>
+  <Hit_accession>FJ629447</Hit_accession>
+  <Hit_len>1702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.825</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>2.3698e-170</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>916</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>547</Hsp_identity>
+      <Hsp_positive>547</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>655</Hsp_align-len>
+      <Hsp_qseq>CGGACCATGGGTTAACCACACCTCGCCCAGCACCACCCACGACATCCACCCTGATTTTCTCGCTGCGGCTGCCTGATCATGCGACGCCCACCAGCACACAAGGTGGCACTGAGGTGCAGCCGACCTTCTCCGGGGATAGGTTTGGCATCCCACTTGGAGCGGTCGTCGAACGCGGGACGAAGTGGAGCATGTGCATCCAGTTCGGCCAGTATATCCCGATAGCAATCCTTGATGAAGGGGTGTTCCGATGTTATAGCCATGCAATGGTAACTTTACATTGGCCGTAATATCGAAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTGGTTTTCTGTCGATTGTTTTTGGAGAAGCAAGGTAGAGTATATCAATCGCCGGTGAGTCGCAGGGCGAGGCTCTTGCTCATGCTCTCATAGTTGGGCTTGATGATTTCCCAGATCCTGATGGAATAGTCGCGTACATCGCGCCCGTGTTCGCGCAAGCTCGCTCCTAATGTGAAACAGTGTCGTGCACATCCCTTGACCAAAGATCGCCTGGACGGGTGCTGTACCAGGGACTGGGGTGACTCTGCGCGGCATGGGTGGGTCATGGCCCTCCCCAGTACTATTCCGATATTACGGTATGATCTCCGTGTC</Hsp_qseq>
+      <Hsp_hseq>CGGACCATGCAGTAACCACGT-TCGCCCGTCACCGCCAACCG-ATCCTCGCTTATTTTCA-GCTGTGG-TGCCCGATCATGCAGCGCC-AGGAGCACAGAATGTGGCACCAGGATGCGGTAGAGCCAG-CCGGGGATAGGTTTGCCAGCCCAATCGGAGCTCTCGTCGAACTCCTGACGAAATGGAGCATGTGGATCCGGTTCGGCGAGTATATAACGATAGCCATCCTTGTTGAAGGGGTGTTCCAATGG-ATAGCCATGCGGTGGCAACTTTACATTGGCCGTAATATCGGAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTCCTTTTCTGTCGATTGTTTTTGGAGAGGGAAGCTTGAGTATATCCATCGTCGGTGAGTCGCAGGGCGCCGCTCTTGCTCATGCTCTCGTAGTTGGGCTTGATGA-TTCGCAGATCCTGATGGAATAGTC-CGTACATGGCG-CCATGTTC-CGCATGCTC-CTCGT-AGGTG-AACAGGGTC-TGCACAT-CCTTGACCAAAGATCG-CTGGAC-GGTGCTGTACCA-GGACT-GGGTGAGTCTGCGTGGCATGG--TGGTCATGGCC--TCCCAGTACTGTT-CGAT-GTACGGTATGATCTCCTTGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||   ||||||  |||| || ||   |||| | || ||||||  |||| || |||| ||||||||  |||| |  |||||| || |||||||   | ||| |  || |    ||||||||||||||| || |||| | |||||  ||||||||| |  |||||| ||||||||||| |||| ||||||| |||||||  ||||||| ||||||| |||||||||||||| |||  ||||||||||  ||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||| | ||| | ||||||||| |||| |||||||||||||||||  |||||||||||||||||| |||||||||||||||| ||| |||||||||||||||||||| ||||||| ||| || ||||| |||| |||| ||| | | ||| ||||| ||| ||||||| |||||||||||||||| |||||| |||||||||||| ||||| |||||| |||||| |||||||   ||||||||||   ||||||||| || ||||  ||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|665394964|ref|NM_176558.3|</Hit_id>
+  <Hit_def>Drosophila melanogaster absent, small, or homeotic discs 2 (ash2), transcript variant C, mRNA</Hit_def>
+  <Hit_accession>NM_176558</Hit_accession>
+  <Hit_len>1949</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.825</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>2.3698e-170</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>916</Hsp_query-to>
+      <Hsp_hit-from>1120</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>547</Hsp_identity>
+      <Hsp_positive>547</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>655</Hsp_align-len>
+      <Hsp_qseq>CGGACCATGGGTTAACCACACCTCGCCCAGCACCACCCACGACATCCACCCTGATTTTCTCGCTGCGGCTGCCTGATCATGCGACGCCCACCAGCACACAAGGTGGCACTGAGGTGCAGCCGACCTTCTCCGGGGATAGGTTTGGCATCCCACTTGGAGCGGTCGTCGAACGCGGGACGAAGTGGAGCATGTGCATCCAGTTCGGCCAGTATATCCCGATAGCAATCCTTGATGAAGGGGTGTTCCGATGTTATAGCCATGCAATGGTAACTTTACATTGGCCGTAATATCGAAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTGGTTTTCTGTCGATTGTTTTTGGAGAAGCAAGGTAGAGTATATCAATCGCCGGTGAGTCGCAGGGCGAGGCTCTTGCTCATGCTCTCATAGTTGGGCTTGATGATTTCCCAGATCCTGATGGAATAGTCGCGTACATCGCGCCCGTGTTCGCGCAAGCTCGCTCCTAATGTGAAACAGTGTCGTGCACATCCCTTGACCAAAGATCGCCTGGACGGGTGCTGTACCAGGGACTGGGGTGACTCTGCGCGGCATGGGTGGGTCATGGCCCTCCCCAGTACTATTCCGATATTACGGTATGATCTCCGTGTC</Hsp_qseq>
+      <Hsp_hseq>CGGACCATGCAGTAACCACGT-TCGCCCGTCACCGCCAACCG-ATCCTCGCTTATTTTCA-GCTGTGG-TGCCCGATCATGCAGCGCC-AGGAGCACAGAATGTGGCACCAGGATGCGGTAGAGCCAG-CCGGGGATAGGTTTGCCAGCCCAATCGGAGCTCTCGTCGAACTCCTGACGAAATGGAGCATGTGGATCCGGTTCGGCGAGTATATAACGATAGCCATCCTTGTTGAAGGGGTGTTCCAATGG-ATAGCCATGCGGTGGCAACTTTACATTGGCCGTAATATCGGAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTCCTTTTCTGTCGATTGTTTTTGGAGAGGGAAGCTTGAGTATATCCATCGTCGGTGAGTCGCAGGGCGCCGCTCTTGCTCATGCTCTCGTAGTTGGGCTTGATGA-TTCGCAGATCCTGATGGAATAGTC-CGTACATGGCG-CCATGTTC-CGCATGCTC-CTCGT-AGGTG-AACAGGGTC-TGCACAT-CCTTGACCAAAGATCG-CTGGAC-GGTGCTGTACCA-GGACT-GGGTGAGTCTGCGTGGCATGG--TGGTCATGGCC--TCCCAGTACTGTT-CGAT-GTACGGTATGATCTCCTTGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||   ||||||  |||| || ||   |||| | || ||||||  |||| || |||| ||||||||  |||| |  |||||| || |||||||   | ||| |  || |    ||||||||||||||| || |||| | |||||  ||||||||| |  |||||| ||||||||||| |||| ||||||| |||||||  ||||||| ||||||| |||||||||||||| |||  ||||||||||  ||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||| | ||| | ||||||||| |||| |||||||||||||||||  |||||||||||||||||| |||||||||||||||| ||| |||||||||||||||||||| ||||||| ||| || ||||| |||| |||| ||| | | ||| ||||| ||| ||||||| |||||||||||||||| |||||| |||||||||||| ||||| |||||| |||||| |||||||   ||||||||||   ||||||||| || ||||  ||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|24797077|gb|U73809.2|DMU73809</Hit_id>
+  <Hit_def>Drosophila melanogaster trithorax protein ASH2 (ash2) mRNA, complete cds &gt;gi|15291916|gb|AY051803.1| Drosophila melanogaster LD31680 full length cDNA</Hit_def>
+  <Hit_accession>U73809</Hit_accession>
+  <Hit_len>1922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.825</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>2.3698e-170</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>916</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>547</Hsp_identity>
+      <Hsp_positive>547</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>655</Hsp_align-len>
+      <Hsp_qseq>CGGACCATGGGTTAACCACACCTCGCCCAGCACCACCCACGACATCCACCCTGATTTTCTCGCTGCGGCTGCCTGATCATGCGACGCCCACCAGCACACAAGGTGGCACTGAGGTGCAGCCGACCTTCTCCGGGGATAGGTTTGGCATCCCACTTGGAGCGGTCGTCGAACGCGGGACGAAGTGGAGCATGTGCATCCAGTTCGGCCAGTATATCCCGATAGCAATCCTTGATGAAGGGGTGTTCCGATGTTATAGCCATGCAATGGTAACTTTACATTGGCCGTAATATCGAAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTGGTTTTCTGTCGATTGTTTTTGGAGAAGCAAGGTAGAGTATATCAATCGCCGGTGAGTCGCAGGGCGAGGCTCTTGCTCATGCTCTCATAGTTGGGCTTGATGATTTCCCAGATCCTGATGGAATAGTCGCGTACATCGCGCCCGTGTTCGCGCAAGCTCGCTCCTAATGTGAAACAGTGTCGTGCACATCCCTTGACCAAAGATCGCCTGGACGGGTGCTGTACCAGGGACTGGGGTGACTCTGCGCGGCATGGGTGGGTCATGGCCCTCCCCAGTACTATTCCGATATTACGGTATGATCTCCGTGTC</Hsp_qseq>
+      <Hsp_hseq>CGGACCATGCAGTAACCACGT-TCGCCCGTCACCGCCAACCG-ATCCTCGCTTATTTTCA-GCTGTGG-TGCCCGATCATGCAGCGCC-AGGAGCACAGAATGTGGCACCAGGATGCGGTAGAGCCAG-CCGGGGATAGGTTTGCCAGCCCAATCGGAGCTCTCGTCGAACTCCTGACGAAATGGAGCATGTGGATCCGGTTCGGCGAGTATATAACGATAGCCATCCTTGTTGAAGGGGTGTTCCAATGG-ATAGCCATGCGGTGGCAACTTTACATTGGCCGTAATATCGGAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTCCTTTTCTGTCGATTGTTTTTGGAGAGGGAAGCTTGAGTATATCCATCGTCGGTGAGTCGCAGGGCGCCGCTCTTGCTCATGCTCTCGTAGTTGGGCTTGATGA-TTCGCAGATCCTGATGGAATAGTC-CGTACATGGCG-CCATGTTC-CGCATGCTC-CTCGT-AGGTG-AACAGGGTC-TGCACAT-CCTTGACCAAAGATCG-CTGGAC-GGTGCTGTACCA-GGACT-GGGTGAGTCTGCGTGGCATGG--TGGTCATGGCC--TCCCAGTACTGTT-CGAT-GTACGGTATGATCTCCTTGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||   ||||||  |||| || ||   |||| | || ||||||  |||| || |||| ||||||||  |||| |  |||||| || |||||||   | ||| |  || |    ||||||||||||||| || |||| | |||||  ||||||||| |  |||||| ||||||||||| |||| ||||||| |||||||  ||||||| ||||||| |||||||||||||| |||  ||||||||||  ||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||| | ||| | ||||||||| |||| |||||||||||||||||  |||||||||||||||||| |||||||||||||||| ||| |||||||||||||||||||| ||||||| ||| || ||||| |||| |||| ||| | | ||| ||||| ||| ||||||| |||||||||||||||| |||||| |||||||||||| ||||| |||||| |||||| |||||||   ||||||||||   ||||||||| || ||||  ||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|195331702|ref|XM_002032503.1|</Hit_id>
+  <Hit_def>Drosophila sechellia GM26615 (Dsec\GM26615), mRNA</Hit_def>
+  <Hit_accession>XM_002032503</Hit_accession>
+  <Hit_len>1671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.70632e-144</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>916</Hsp_query-to>
+      <Hsp_hit-from>1016</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>527</Hsp_identity>
+      <Hsp_positive>527</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>655</Hsp_align-len>
+      <Hsp_qseq>CGGACCATGGGTTAACCACACCTCGCCCAGCACCACCCACGACATCCACCCTGATTTTCTCGCTGCGGCTGCCTGATCATGCGACGCCCACCAGCACACAAGGTGGCACTGAGGTGCAGCCGACCTTCTCCGGGGATAGGTTTGGCATCCCACTTGGAGCGGTCGTCGAACGCGGGACGAAGTGGAGCATGTGCATCCAGTTCGGCCAGTATATCCCGATAGCAATCCTTGATGAAGGGGTGTTCCGATGTTATAGCCATGCAATGGTAACTTTACATTGGCCGTAATATCGAAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTGGTTTTCTGTCGATTGTTTTTGGAGAAGCAAGGTAGAGTATATCAATCGCCGGTGAGTCGCAGGGCGAGGCTCTTGCTCATGCTCTCATAGTTGGGCTTGATGATTTCCCAGATCCTGATGGAATAGTCGCGTACATCGCGCCCGTGTTCGCGCAAGCTCGCTCCTAATGTGAAACAGTGTCGTGCACATCCCTTGACCAAAGATCGCCTGGACGGGTGCTGTACCAGGGACTGGGGTGACTCTGCGCGGCATGGGTGGGTCATGGCCCTCCCCAGTACTATTCCGATATTACGGTATGATCTCCGTGTC</Hsp_qseq>
+      <Hsp_hseq>CGGACCATGCAGTAACCACGT-TCGCCCGTCACCGCCAGCCG-ATCCTCGCTTATTTTCA-GCTGTGGG-GCACGATCGTGCAGCGCC-AGGAGCACAGAATGTGGCACCAGGGTGCGGTAGAGCCAG-CCAGGAATGGGCTTGCCTGCCCAATCGGAGCTCTCGTCGAACTCCTGACGGAACGGAGCATGTGGATCCGGTTCGGCGAGTATGTAACGATAGCCATCCTTGTTGAAGGGGTGCTCCAATGG-ATAACCATGCGGTGGCAGCTTTACATTGGCCGTAATATCGGAACTGGGCCGACCCTTCTTGCCCGTGGGACCCGAATCCGTGCCGGGAAATTTCCTTTTCTGTCGATTGTTTTTAGAGAGGGCAGCTTGAGTATATCCATCGTCGGTGAGTCGCAGGGCGCCGCTCTTGCTCATGCTCTCGTAGTTGGGCTTGATGA-TTCGCAGATCCTGATGGAACAGTC-CGTACATGGCG-CCATGTTC-CGCGTGCTC-CTCGT-AGGTG-AACAGGGTC-TGCACAT-CCTTGACCAAAGATCG-CTGGAC-GGTGCTGTACCAGG--ATTGGGTGAGTCTGCGCGGCATGG--TGGTCATAGCC--TCCCAGTACTGTT-CGAT-GTACGGTATGATCTCCTTGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||   ||||||  |||| ||  |   |||| | || ||||||  |||| ||  ||  |||| |||  |||| |  |||||| || |||||||   ||||| |  || |    || || || || ||| |  |||| | |||||  ||||||||| |  |||| |  |||||||||| |||| ||||||| ||||| |  ||||||| ||||||| |||||||||| ||| |||  ||| ||||||  ||| | |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||| |||| |  || | ||||||||| |||| |||||||||||||||||  |||||||||||||||||| |||||||||||||||| ||| ||||||||||||||| |||| ||||||| ||| || ||||| |||  |||| ||| | | ||| ||||| ||| ||||||| |||||||||||||||| |||||| ||||||||||||||   | |||||| ||||||||||||||   |||||| |||   ||||||||| || ||||  ||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>49234818</Statistics_db-num>
+      <Statistics_db-len>188851820814</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_214813</BlastOutput_query-ID>
+  <BlastOutput_query-def>180613-019_K09_1_B5P7_B5.ab1</BlastOutput_query-def>
+  <BlastOutput_query-len>1159</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_214813</Iteration_query-ID>
+  <Iteration_query-def>180613-019_K09_1_B5P7_B5.ab1</Iteration_query-def>
+  <Iteration_query-len>1159</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|56411845|gb|AY669063.1|</Hit_id>
+  <Hit_def>Ribes rubrum phytoplasma 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY669063</Hit_accession>
+  <Hit_len>1613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1104.95</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>802</Hsp_query-to>
+      <Hsp_hit-from>805</Hsp_hit-from>
+      <Hsp_hit-to>1518</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>679</Hsp_identity>
+      <Hsp_positive>679</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>AACCAATGATGAACAAAACAAGTTAGGTCCTCCTCCTGACTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTCGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTTCAGCCACGAAAGTTGGCAATACCCAAACCGGGTGGGCCTAGCTTCGCAAGAAGAGGGAACCGTCTTAGGTAGGGTCGATGATTGGGGGTTAAGTCATACCGGAGTATCCCTACCGGAGCGTGGGCATCGCTTGAACTCGATTTCTAAGCAAGATAATTA</Hsp_qseq>
+      <Hsp_hseq>AACCAGTGTTGAAGTTAACACATTAAGTACTCCGCCTGAGTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTTGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTCAAACCACGAAAGTTGGCAATACCCAAAGCCGGT-GGCTTAACTTCGCAAGAAGAGGGAACCGTCTAAGGTAGGGTCGATGATT-GGGGTTAAGTCGTAACAAGGTATCCCTACCGGAAGGTGGGGAT-GGATCACCTC-CTTTCTAAGGAAGACAATTA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||   ||||  ||| || |||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||| | ||| ||| || |||||||||||||||||||||||| ||||||||||||||||| ||||||||||| || |   ||||||||||||||  ||||| || |  | | |||  |||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1386873415|gb|MH085065.1|</Hit_id>
+  <Hit_def>North American grapevine yellows phytoplasma clone KS-JO48B 16S ribosomal RNA gene and 16S-23S ribosomal RNA intergenic spacer, partial sequence</Hit_def>
+  <Hit_accession>MH085065</Hit_accession>
+  <Hit_len>1564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1101.34</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>802</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>1542</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>679</Hsp_identity>
+      <Hsp_positive>679</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>AACCAATGATGAACAAAACAAGTTAGGTCCTCCTCCTGACTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTCGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTTCAGCCACGAAAGTTGGCAATACCCAAACCGGGTGGGCCTAGCTTCGCAAGAAGAGGGAACCGTCTTAGGTAGGGTCGATGATTGGGGGTTAAGTCATACCGGAGTATCCCTACCGGAGCGTGGGCATCGCTTGAACTCGATTTCTAAGCAAGATAATTA</Hsp_qseq>
+      <Hsp_hseq>AACCAGTGTTGAAGTTAACACATTAAGTACTCCGCCTGAGTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTTGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTCAAACCACGAAAGTTGGCAATACCCAAAACCGGT-GGCCTAACTTCGCAAGAAGAGGGAACCGTCTAAGGTAGGGTCGATGATT-GGGGTTAAGTCGTAACAAGGTATCCCTACCGGAAGGTGGGGAT-GGATCACCTC-CTTTCTAAGGAA-ACAATTA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||   ||||  ||| || |||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||| | ||| |||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||| || |   ||||||||||||||  ||||| || |  | | |||  |||||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1386873414|gb|MH085064.1|</Hit_id>
+  <Hit_def>North American grapevine yellows phytoplasma clone KS-JO48A 16S ribosomal RNA gene and 16S-23S ribosomal RNA intergenic spacer, partial sequence</Hit_def>
+  <Hit_accession>MH085064</Hit_accession>
+  <Hit_len>1564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1101.34</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>802</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>1542</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>679</Hsp_identity>
+      <Hsp_positive>679</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>AACCAATGATGAACAAAACAAGTTAGGTCCTCCTCCTGACTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTCGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTTCAGCCACGAAAGTTGGCAATACCCAAACCGGGTGGGCCTAGCTTCGCAAGAAGAGGGAACCGTCTTAGGTAGGGTCGATGATTGGGGGTTAAGTCATACCGGAGTATCCCTACCGGAGCGTGGGCATCGCTTGAACTCGATTTCTAAGCAAGATAATTA</Hsp_qseq>
+      <Hsp_hseq>AACCAGTGTTGAAGTTAACACATTAAGTACTCCGCCTGAGTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTTGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTCAAACCACGAAAGTTGGCAATACCCAAAACCGGT-GGCCTAACTTCGCAAGAAGAGGGAACCGTCTAAGGTAGGGTCGATGATT-GGGGTTAAGTCGTAACAAGGTATCCCTACCGGAAGGTGGGGAT-GGATCACCTC-CTTTCTAAGGAA-ACAATTA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||   ||||  ||| || |||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||| | ||| |||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||| || |   ||||||||||||||  ||||| || |  | | |||  |||||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1240176146|gb|KX773514.1|</Hit_id>
+  <Hit_def>Candidatus Phytoplasma asteris isolate Rus-CPh326Fc7 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX773514</Hit_accession>
+  <Hit_len>1539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1101.34</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>802</Hsp_query-to>
+      <Hsp_hit-from>805</Hsp_hit-from>
+      <Hsp_hit-to>1517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>679</Hsp_identity>
+      <Hsp_positive>679</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>AACCAATGATGAACAAAACAAGTTAGGTCCTCCTCCTGACTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTCGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTTCAGCCACGAAAGTTGGCAATACCCAAACCGGGTGGGCCTAGCTTCGCAAGAAGAGGGAACCGTCTTAGGTAGGGTCGATGATTGGGGGTTAAGTCATACCGGAGTATCCCTACCGGAGCGTGGGCATCGCTTGAACTCGATTTCTAAGCAAGATAATTA</Hsp_qseq>
+      <Hsp_hseq>AACCAGTGTTGAAGTTAACACATTAAGTACTCCGCCTGAGTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTTGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTCAAACCACGAAAGTTGGCAATACCCAAAGCCGGT-GGCCTAACTTCGCAAGAAGAGGGAACCGTCTAAGGTAGGGTCGATGATT-GGGGTTAAGTCGTAACAAGGTATCCCTACCGGAAGGTGGGGAT-GGATCACCTC-CTTTCTAAGGAA-ACAATTA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||   ||||  ||| || |||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||| | ||| |||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||| || |   ||||||||||||||  ||||| || |  | | |||  |||||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1279515154|gb|MF192880.2|</Hit_id>
+  <Hit_def>&apos;Poa annua&apos; phytoplasma isolate 31-2 16S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF192880</Hit_accession>
+  <Hit_len>1403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1095.93</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>802</Hsp_query-to>
+      <Hsp_hit-from>667</Hsp_hit-from>
+      <Hsp_hit-to>1379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>677</Hsp_identity>
+      <Hsp_positive>677</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>AACCAATGATGAACAAAACAAGTTAGGTCCTCCTCCTGACTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTCGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGCAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTTCAGCCACGAAAGTTGGCAATACCCAAACCGGGTGGGCCTAGCTTCGCAAGAAGAGGGAACCGTCTTAGGTAGGGTCGATGATTGGGGGTTAAGTCATACCGGAGTATCCCTACCGGAGCGTGGGCATCGCTTGAACTCGATTTCTAAGCAAGATAATTA</Hsp_qseq>
+      <Hsp_hseq>AACCAGYGTTGAAGTTAACACATTAAGTACTCCGCCTGAGTAGTACGTACGCAAGTATGAAACTTAAAGGAATTGACGGGACTCCGCACAAGCGGTGGATCATGTTGTTTAATTCGAAGGTACCCGAAAAACCTCACCAGGTCTTGACATGCTTCTGCAAAGCTGTAGAAACACAGTGGAGGTTATCAGTTGCACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTGTTAGTTGCCAGCACGTAATGGTGGGGACTTTAGCAAGACTGCCAGTGATAAATTGGAGGAAGGTGGGGACGACGTCAAATCATCATGCCCCTTATGACCTGGGCTACAAACGTGATACAATGGCTGTTACAAAGGGTAGCTGAAACGYAAGTTTTTGGCGAATCTCAAAAAAACAGTCTCAGTTCGGATTGAAGTCTGCAACTCGACTTCATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCATGTCGCGGTGAATACGTTCTCGGGGTTTGTACACACCGCCCGTCAAACCACGAAAGTTGGCAATACCCAAAGCCGGT-GGCCTAACTTCGCAAGAAGAGGGAACCGTCTAAGGTAGGGTCGATGATT-GGGGTTAAGTCGTAACAAGGTATCCCTACCGGAAGGTGGGGAT-GGATCACCTC-CTTTCTAAGGAA-ACAATTA</Hsp_hseq>
+      <Hsp_midline>|||||  | ||||   ||||  ||| || |||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||| | ||| |||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||| || |   ||||||||||||||  ||||| || |  | | |||  |||||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>49234818</Statistics_db-num>
+      <Statistics_db-len>188851820814</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_85137</BlastOutput_query-ID>
+  <BlastOutput_query-def>180613-019_C19_1_F2R2_F1V.ab1</BlastOutput_query-def>
+  <BlastOutput_query-len>1132</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_85137</Iteration_query-ID>
+  <Iteration_query-def>180613-019_C19_1_F2R2_F1V.ab1</Iteration_query-def>
+  <Iteration_query-len>1132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|147825284|emb|AM488799.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X098962.9, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM488799</Hit_accession>
+  <Hit_len>42017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.0528178</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>8995</Hsp_hit-from>
+      <Hsp_hit-to>9050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>AAAACAACAGGAAGAAAAGAATAAAAATAAATAGTAAAAGCGGAGAGGGTATGGGGC</Hsp_qseq>
+      <Hsp_hseq>AAAACATCATAAATAAAA-AATAAAAATAAATATTAAAMACTGAGAAGGGATGGGGC</Hsp_hseq>
+      <Hsp_midline>|||||| ||  || |||| |||||||||||||| ||||  | |||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1083276474|ref|XM_018730933.1|</Hit_id>
+  <Hit_def>PREDICTED: Scleropages formosus kinesin-like protein KIF1A (LOC108921460), partial mRNA</Hit_def>
+  <Hit_accession>XM_018730933</Hit_accession>
+  <Hit_len>8691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.184352</Hsp_evalue>
+      <Hsp_query-from>445</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>691</Hsp_hit-from>
+      <Hsp_hit-to>732</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>AAGGAAGGAGAAAATATAAACAAAT-GCTGGCGGCGCGCGGG</Hsp_qseq>
+      <Hsp_hseq>AAGGAAGGAGCAAATATAAACAAATCGCTGACGACGCTCGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| |||| || ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1025149857|ref|XM_016560840.1|</Hit_id>
+  <Hit_def>PREDICTED: Sinocyclocheilus rhinocerous signal-induced proliferation-associated 1-like protein 3 (LOC107746578), mRNA</Hit_def>
+  <Hit_accession>XM_016560840</Hit_accession>
+  <Hit_len>8019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.184352</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7686</Hsp_hit-from>
+      <Hsp_hit-to>7646</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>AAAACAA--CAGGAAGAAAAGAATAAAAATAAATAGTAAAA</Hsp_qseq>
+      <Hsp_hseq>AAAACAAAACAAGAAGAAAAGAATCAAAATAAATAGTCAAA</Hsp_hseq>
+      <Hsp_midline>|||||||  || |||||||||||| |||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|387513634|emb|HE806320.1|</Hit_id>
+  <Hit_def>Tetrapisispora blattae CBS 6284 chromosome 5, complete genome</Hit_def>
+  <Hit_accession>HE806320</Hit_accession>
+  <Hit_len>1324051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.184352</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>990878</Hsp_hit-from>
+      <Hsp_hit-to>990916</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>AACAACAGGAAGAA-AAGAATAAAAATAAATAGTAAAAG</Hsp_qseq>
+      <Hsp_hseq>AATAAGAGGAAAAATAAGAATAAAAATAAATAGTAAAAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||| || ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1383798859|ref|XM_024813851.1|</Hit_id>
+  <Hit_def>Aspergillus candidus hypothetical protein (BDW47DRAFT_111004), mRNA</Hit_def>
+  <Hit_accession>XM_024813851</Hit_accession>
+  <Hit_len>1523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.643452</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>GCGAAAACAACAGGAAGAAAA-GAATAAAAATAAATAGTAAAA</Hsp_qseq>
+      <Hsp_hseq>GCCAAGACATCAGGAAGAAAAAGAATAAAAATAAAGAATAAAA</Hsp_hseq>
+      <Hsp_midline>|| || ||| ||||||||||| ||||||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>49234818</Statistics_db-num>
+      <Statistics_db-len>188851820814</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
