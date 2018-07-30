@@ -20,7 +20,7 @@ for file in glob.glob("*.txt"):
 print fasta_files
 
 
-with open("output.txt","w") as File:
+with open("output5.txt","w") as File:
     for i in fasta_files:
         fasta_string = open(i).read() #or make the names fasta1.fasta and just do open(i).read
         result_handle = NCBIWWW.qblast("blastn", "nr", fasta_string, hitlist_size=5)
@@ -47,7 +47,7 @@ e=[]
 vals =[]
 
 
-with open('output.txt') as f:
+with open('output5.txt') as f:
     for line in f:
         val = line.strip()
         vals.append(val.split('\n'))
