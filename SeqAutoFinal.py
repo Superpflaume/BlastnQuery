@@ -20,23 +20,26 @@ for file in glob.glob("*.txt"):
 print fasta_files
 
 
-with open("output.txt","w") as File:
+
+with open("output.txt", "w") as File:
+    results = []
     for i in fasta_files:
-        fasta_string = open(i).read() #or make the names fasta1.fasta and just do open(i).read
+        f_file = open(i)
+        fasta_string = f_file.read()  # or make the names fasta1.fasta and just do open(i).read
+        f_file.close()
         result_handle = NCBIWWW.qblast("blastn", "nr", fasta_string, hitlist_size=5)
 
-
-        blast_records = NCBIXML.read(result_handle)# if you only have one seq in file
+        blast_records = NCBIXML.read(result_handle)  # if you only have one seq in file
 
         for alignment in blast_records.alignments:
             for hsp in alignment.hsps:
                 file_string += "File:" + str(i) + "\n"
-                file_string += "alignment:"+ str(alignment.title)+"\n"
-                file_string += "e-value:"+ str(hsp.expect)+"\n"
-        File.write(file_string)
+                file_string += "alignment:" + str(alignment.title)+"\n"
+                file_string += "e-value:" + str(hsp.expect)+"\n"
+        results.append(file_string)
+        file_string = ""
         print i
-
-
+    File.writelines(results)
 #txttocsv
 
 
