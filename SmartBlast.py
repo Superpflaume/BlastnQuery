@@ -16,12 +16,10 @@ with open("BLASToutput.csv", "w") as output:
             print file
             
             result_handle = NCBIWWW.qblast("blastn", "nr", fasta_sequence, hitlist_size=5)
-            #blast_records = ''
-            #blast_records = NCBIXML.read(result_handle)
-            #print blast_records
+    
             output.write(result_handle.read())
             result_handle.close()
-            #fasta_sequence.close()
+       
             print "next"
 
 
