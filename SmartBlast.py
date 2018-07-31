@@ -26,7 +26,7 @@ with open("BLASToutputPARSED"+str(x)+".xml", "w") as output:
             x += 1
             
 #result_handle = open ("BLASToutputPARSED.xml","r")
-            #blast_records = NCBIXML.parse(result_handle)
+#blast_records = NCBIXML.parse(result_handle)
             blast_records = NCBIXML.read(result_handle)
             blast_record = next(blast_records)
 
