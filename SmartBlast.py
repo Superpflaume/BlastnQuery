@@ -13,27 +13,34 @@ with open("BLASToutputPARSED.xml", "w") as output:
     for file in glob.glob('*.txt'):
         fasta_sequence = open(file,'r').read()
         if fasta_sequence.startswith('>')==True:            
+            print file , "blasting..."
             result_handle = NCBIWWW.qblast("blastn", "nr", fasta_sequence, hitlist_size=5)
 
-            blast_records = NCBIXML.read(result_handle)
-
-            for alignment in blast_records.alignments:
-                for hsp in alignment.hsps:
-                    a = str(file)
-                    b = "sequence:" + str(alignment.title)
-                    c = "length:" + str(alignment.length)
-                    d = "e value:" + str(hsp.expect)
-                    output.write(a)
-                    output.write(b)
-                    output.write(c)
-                    output.write(d)
-
+            output.write(result_handle.read())
             result_handle.close()
        
-            print"done:", file
+            print file, "done"
 
 end = time.time()
 print(end - start)
             
+result_handle = open ("BLASToutput.xml")
+blast_records = NCBIXML.parse(result_handle)
+blast_record = next(blast_records)
 
+with open("BLAST.csv", "w") as output:
+    output.write('File ;')
+    output.write('Title;')
+    output.write('Length;')
+    output.write('E-value \n')
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+            fil = str(file) + ';' 
+            tit = str(alignment.title)+ ';'
+            leng = str(alignment.length)+ ';' 
+            val = str(hsp.expect)+ ';' + '\n'
 
+            output.write(fil)
+            output.write(tit)
+            output.write(leng)
+            output.write(val)
