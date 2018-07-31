@@ -24,7 +24,7 @@ with open("BLASToutputPARSED.xml", "w") as output:
 end = time.time()
 print(end - start)
             
-result_handle = open ("BLASToutput.xml")
+result_handle = open ("BLASToutputPARSED.xml")
 blast_records = NCBIXML.parse(result_handle)
 blast_record = next(blast_records)
 
@@ -38,7 +38,7 @@ with open("BLAST.csv", "w") as output:
             fil = str(file) + ';' 
             tit = str(alignment.title)+ ';'
             leng = str(alignment.length)+ ';' 
-            val = str(hsp.expect)+ ';' + '\n'
+            val = str(hsp.expect) + '\n'
 
             output.write(fil)
             output.write(tit)

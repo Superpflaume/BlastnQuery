@@ -7,11 +7,12 @@ result_handle = open ("BLASToutput.xml")
 blast_records = NCBIXML.parse(result_handle)
 blast_record = next(blast_records)
 
+header = ['File ;','Title;', 'Length;','E-value \n']
+i = 0
 with open("BLAST.csv", "w") as output:
-    output.write('File ;')
-    output.write('Title;')
-    output.write('Length;')
-    output.write('E-value \n')
+    writer = csv.writer(output)
+    writer.writerow(i for i in header)
+    #output.write(i for i in header)
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:
             fil = str(file) + ';' 
@@ -23,3 +24,7 @@ with open("BLAST.csv", "w") as output:
             output.write(tit)
             output.write(leng)
             output.write(val)
+
+    
+    #writer.writerow(('File', 'Alignment', 'E-value'))
+#writer.writerows(izip(fil, ali, e))
