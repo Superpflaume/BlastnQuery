@@ -1,4 +1,4 @@
-#smartblast many xml
+#supersmartblast
 
 from Bio.Blast import  NCBIWWW
 from Bio.Blast import NCBIXML
@@ -16,7 +16,7 @@ for file in glob.glob("*.txt"):
             print file , "blasting..."
 
             result_handle = NCBIWWW.qblast("blastn", "nr", fasta_sequence, hitlist_size=5)
-            output.write(result_handle.read())
+            output_xml.write(result_handle.read())
             result_handle.close()
 
             x += 1
