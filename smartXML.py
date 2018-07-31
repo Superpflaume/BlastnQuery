@@ -12,8 +12,5 @@ with open("BLAST2.csv", "w") as output:
     writer.writerow(['File ','Title', 'Length','E-value'])
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:
-            output.write(str(file) + ';')
-            output.write(str(alignment.title)+ ';')
-            output.write(str(alignment.length)+ ';')
-            output.write(str(hsp.expect) + '\n')
+            writer.writerow([str(file), str(alignment.title), str(alignment.length), str(hsp.expect)])
         
